@@ -1,7 +1,6 @@
-# Frisco
+# Dr Lauriane Ribas-Deulofeu
 
-App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
-Increase the web presence of a App with this configurable theme.
+Personal Website under development
 
 ![Frisco template screenshot](images/_screenshot.jpg)
 
