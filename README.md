@@ -2,7 +2,7 @@
 
 Personal Website under development
 
-![Frisco template screenshot](images/_screenshot.jpg)
+![Frisco template screenshot](images/Portraits/LaurianeFieldFossil.jpeg)
 
 Frisco was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
