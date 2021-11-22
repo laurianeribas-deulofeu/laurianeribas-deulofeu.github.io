@@ -69,7 +69,7 @@ Frisco is already optimised for adding, updating and removing pages, staff, advi
 ### Footer
 
 * Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
+* Set in the *Data* / *Navigation* section .
 
 ### Footer
 
