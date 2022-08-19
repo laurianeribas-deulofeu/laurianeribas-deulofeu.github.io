@@ -17,10 +17,24 @@ published: true
 
         <p class="block-author">{{ site.company_name }}</p>
         <p>{{ site.address_line }}</p>
-        <p>Phone: {{ site.telephone_number }}</p>
-        <p>Fax: {{ site.fax_number }}</p>
+       <!-- <p>Phone: {{ site.telephone_number }}</p>
+        <p>Fax: {{ site.fax_number }}</p>!-->
 
         <em class="block-author">Email: {{ site.company_email }}</em> <br>
+        <div id="social-icons">
+          {% if site.researchgate_link %}
+            <a href="{{ site.researchgate_link: }}" class="btn-group researchgate">
+              <i class="fa fa-researchgate"></i>
+            </a>
+          {% endif %}
+
+          {% if site.twitter_link %}
+            <a href="{{ site.twitter_link }}" class="btn-group twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          {% endif %}
+        </div>
+
         <br>
         <!-- p class="lead">Social Link</p><hr>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
