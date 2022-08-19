@@ -27,6 +27,19 @@
               <i class="fa fa-orcid"></i>
             </a>
           {% endif %}
+          
+          {% if site.googlescholar_link %}
+            <a href="{{ site.googlescholar_link: }}" class="btn-group googlescholar">
+              <i class="fa fa-graduation-cap"></i>
+            </a>
+          {% endif %}
+          
+          {% if site.webofscience_link %}
+            <a href="{{ site.webofscience_link: }}" class="btn-group webofscience">
+              <i class="fa-solid fa-atom"></i>
+            </a>
+          {% endif %}
+          
           {% if site.researchgate_link %}
             <a href="{{ site.researchgate_link: }}" class="btn-group researchgate">
               <i class="fa fa-researchgate"></i>
