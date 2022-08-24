@@ -669,14 +669,14 @@ footer h3 {
 .blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
 .blockquote-box.blockquote-primary{border-color:#55CBD2}
 .blockquote-box.blockquote-primary .square{background-color:#55CBD2;;color:#FFF}
-.blockquote-box.blockquote-success{border-color:#E6E6E6}
-.blockquote-box.blockquote-success .square{background-color:#E6E6E6;color:#FFF}
-.blockquote-box.blockquote-info{border-color:#E6E6E6}
-.blockquote-box.blockquote-info .square{background-color:#E6E6E6;color:#FFF}
+.blockquote-box.blockquote-success{border-color:#c9c7c7}
+.blockquote-box.blockquote-success .square{background-color:#c9c7c7;color:#FFF}
+.blockquote-box.blockquote-info{border-color:#c9c7c7}
+.blockquote-box.blockquote-info .square{background-color:#c9c7c7;color:#FFF}
 .blockquote-box.blockquote-warning{border-color:#0a2d36}
 .blockquote-box.blockquote-warning .square{background-color:#0a2d36;color:#FFF}
-.blockquote-box.blockquote-danger{border-color:#0a2d36}
-.blockquote-box.blockquote-danger .square{background-color:#0a2d36;color:#FFF}
+.blockquote-box.blockquote-danger{border-color:#E6E6E6}
+.blockquote-box.blockquote-danger .square{background-color:#E6E6E6;color:#FFF}
 
 /*
 * ==========================================================================
