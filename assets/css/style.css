@@ -670,13 +670,13 @@ footer h3 {
 .blockquote-box.blockquote-primary{border-color:#061F20;}
 .blockquote-box.blockquote-primary .square{background-color:#061F20;;color:#FFF}
 .blockquote-box.blockquote-success{border-color:#061F20;}
-.blockquote-box.blockquote-success .square{background-color:#5CB85C;color:#FFF}
+.blockquote-box.blockquote-success .square{background-color:#0a2d36;color:#FFF}
 .blockquote-box.blockquote-info{border-color:#061F20;}
-.blockquote-box.blockquote-info .square{background-color:#5BC0DE;color:#FFF}
-.blockquote-box.blockquote-warning{border-color:#EEA236}
+.blockquote-box.blockquote-info .square{background-color:#0a2d36;color:#FFF}
+.blockquote-box.blockquote-warning{border-color:#0a2d36}
 .blockquote-box.blockquote-warning .square{background-color:#F0AD4E;color:#FFF}
-.blockquote-box.blockquote-danger{border-color:#D43F3A}
-.blockquote-box.blockquote-danger .square{background-color:#D9534F;color:#FFF}
+.blockquote-box.blockquote-danger{border-color:#0a2d36}
+.blockquote-box.blockquote-danger .square{background-color:#0a2d36;color:#FFF}
 
 /*
 * ==========================================================================
