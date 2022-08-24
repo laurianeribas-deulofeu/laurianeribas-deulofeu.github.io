@@ -16,8 +16,7 @@
 title: Dr. Lauriane Ribas-Deulofeu
 email: lauriane.ribas@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Yet another Jekyll theme. It is designed for business purpose and ported by 
-  Melvin Ch'ng.
+  Welcome to Dr. L Ribas-Deulofeu's website. Discover my research on coral reef ecosystems.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
