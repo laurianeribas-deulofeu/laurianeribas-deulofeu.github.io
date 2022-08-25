@@ -3,47 +3,33 @@ layout: default_style
 permalink: /TaiwanCoral-associatedecosystems
 published: true
 ---
-<!-- Main Container -->
+
 <div id="banners"></div>
-<div class="container">
-  {% for post in site.posts %}
-  <div class="blog-post">
-      <h1 class="blog-title">
-        <i class="fa fa-file-text"></i>
-        {{ post.title }}
-      </h1>
-      <br>
-      <img src="assets/img/slider/{{ post.picture }}" alt="Feature-img" align="right" width="100%" class="blog-image">
-      <br>
-      <p>{{ post.description }}</p>
-      <span class="badge">{{ post.date | date: '%B %d, %Y' }}</span>
-      <div class="pull-right">
-        {% if post.label_default %}
-          <span class="label label-default">{{ post.label_default }}</span> 
-        {% endif %}
+<div class="container">   
+  <div class="row">  
+    <div class="col-sm-8 col-md-8">
+        <h3 class="lead"id="anchor1"> Current project </h3><hr>
+        <p>
+          XXXXcheck test
+        </p>
+        <img src="../assets/img/photo/IMG_20220404_183408_530.jpg" alt="Feature-img" width="100%">
 
-        {% if post.label_primary %}
-          <span class="label label-primary">{{ post.label_primary }}</span> 
-        {% endif %}
-        
-        {% if post.label_success %}
-          <span class="label label-success">{{ post.label_success }}</span> 
-        {% endif %}
-        
-        {% if post.label_info %}
-          <span class="label label-info">{{ post.label_info }}</span> 
-        {% endif %}
-        
-        {% if post.label_warning %}
-          <span class="label label-warning">{{ post.label_warning }}</span>
-        {% endif %}
-
-        {% if post.label_danger %}
-          <span class="label label-danger">{{ post.label_danger }}</span>
-        {% endif %}
-      </div>         
+      
+        <img src="../assets/img/photo/coral close view 2.png" alt="Feature-img" width="100%">
+        <h3 class="lead"id="anchor2">XX:</h3>
+         </p>
     </div>
-    <hr>
-  {% endfor %}
-</div>
-<!--End Main Container -->
+
+   <div class="side-left col-sm-4 col-md-4">
+      <h3 align="center" class="lead">  Personal background : </h3><hr>
+
+      <p align="justify">I am born in South of France. Growing up between the Alps and Provence,
+        I have always been amazed by Nature & its diversity.<br>
+        Remembering my grand-father's stories about Polynesian reefs, I took on the adventure of discovering coral reefs ecology during my second year of master degree & could not consider another path for myself ever since.</p>
+      <img align="center" src="../assets/img/aboutme/Lauriane TW Hike2.jpg" alt="Feature-img" width="100%">
+      <br>
+    </div>
+      
+   </div>
+  </div>    
+</div>  
