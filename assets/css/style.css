@@ -666,7 +666,7 @@ footer h3 {
 
 .glyphicon-lg{font-size:3em}
 .blockquote-box{border-right:5px solid #E6E6E6;margin-bottom:25px}
-.blockquote-box .square{width:110px;min-height:70px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:20px 0}
+.blockquote-box .square{width:110px;min-height:70px;margin-right:22px;text-align:center!important;background-color:#E6E6E6;padding:15px 0}
 .blockquote-box.blockquote-primary{border-color:#55CBD2}
 .blockquote-box.blockquote-primary .square{background-color:#55CBD2;;color:#FFF}
 .blockquote-box.blockquote-success{border-color:#c9c7c7}
