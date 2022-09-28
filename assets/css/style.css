@@ -338,9 +338,9 @@ address {
 .paragraph-text{
     text-align: justify;
     letter-spacing:1px;
-    font-size: 24px;
+    font-size: 32px;
     font-family: 'Arial', sans-serif;
-    line-height: 28px;
+    line-height: 38px;
 }
 .left2{
     text-align: left;
