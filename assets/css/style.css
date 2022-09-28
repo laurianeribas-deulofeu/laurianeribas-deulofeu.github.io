@@ -338,9 +338,9 @@ address {
 .paragraph-text{
     text-align: justify;
     letter-spacing:1px;
-    font-size: 32px;
+    font-size: 16px;
     font-family: 'Arial', sans-serif;
-    line-height: 38px;
+    line-height: 22px;
 }
 .left2{
     text-align: left;
@@ -364,7 +364,7 @@ address {
 
 }
 p.blog-text{   
-    font-size: 16px;
+    font-size: 22px;
     letter-spacing: .1px;
     font-family: 'Arial';
     text-align:justify;
