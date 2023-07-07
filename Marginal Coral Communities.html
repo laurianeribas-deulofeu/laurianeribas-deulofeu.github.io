@@ -11,6 +11,53 @@ published: true
      </div>
 </div>      
   
+  <div id="navigation">
+  <div class="navigation-column">
+    <ul id="navigation-list-left"></ul>
+  </div>
+  <div class="navigation-column">
+    <ul id="navigation-list-right"></ul>
+  </div>
+</div>
+
+<style>
+  .navigation-column {
+    width: 50%;
+    float: left;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const headings = document.querySelectorAll('h3');
+    const navigationListLeft = document.getElementById('navigation-list-left');
+    const navigationListRight = document.getElementById('navigation-list-right');
+
+    headings.forEach(function(heading, index) {
+      const title = heading.textContent;
+      const anchor = 'section-' + index;
+
+      heading.setAttribute('id', anchor);
+
+      // Check if the heading is within the footer
+      if (!heading.closest('footer')) {
+        const listItem = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = title;
+        link.setAttribute('href', '#' + anchor);
+        listItem.appendChild(link);
+
+        // Alternate between left and right columns
+        if (index % 2 === 0) {
+          navigationListLeft.appendChild(listItem);
+        } else {
+          navigationListRight.appendChild(listItem);
+        }
+      }
+    });
+  });
+</script>
+
 <div class="container">   
   <div class="row">  
     <div class="col-sm-6 col-md-6">
@@ -27,7 +74,7 @@ published: true
     </div>
 
     <div class="col-sm-6 col-md-6">
-        <h3 align="center" class="lead">  Jeju Survey (2012-2014) : </h3><hr>
+        <h3 align="center" class="lead">  Jeju survey (2012-2014) map </h3><hr>
         <iframe src="../assets/map/Map Jeju.html" height="550" width="550"></iframe>
     </div>
     
