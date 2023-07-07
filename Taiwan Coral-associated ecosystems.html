@@ -27,13 +27,16 @@ published: true
 
       heading.setAttribute('id', anchor);
 
-      const listItem = document.createElement('li');
-      const link = document.createElement('a');
-      link.textContent = title;
-      link.setAttribute('href', '#' + anchor);
-      listItem.appendChild(link);
+      // Check if the heading is within the footer
+      if (!heading.closest('footer')) {
+        const listItem = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = title;
+        link.setAttribute('href', '#' + anchor);
+        listItem.appendChild(link);
 
-      navigationList.appendChild(listItem);
+        navigationList.appendChild(listItem);
+      }
     });
   });
 </script>
