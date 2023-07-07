@@ -11,6 +11,30 @@ published: true
           </div>
      </div>
 </div>   
+
+<div class="container">
+<div id="navigation"></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const headings = document.querySelectorAll('h3');
+    const navigation = document.getElementById('navigation');
+
+    headings.forEach(function(heading, index) {
+      const title = heading.textContent;
+      const anchor = 'section-' + index;
+
+      heading.setAttribute('id', anchor);
+
+      const link = document.createElement('a');
+      link.textContent = title;
+      link.setAttribute('href', '#' + anchor);
+      navigation.appendChild(link);
+    });
+  });
+</script>
+</div
+
     
 <div class="container">   
   <div class="row">  
