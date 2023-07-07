@@ -12,12 +12,14 @@ published: true
      </div>
 </div>   
 
-<div id="navigation"></div>
+<div id="navigation">
+  <ul id="navigation-list"></ul>
+</div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const headings = document.querySelectorAll('h3');
-    const navigation = document.getElementById('navigation');
+    const navigationList = document.getElementById('navigation-list');
 
     headings.forEach(function(heading, index) {
       const title = heading.textContent;
@@ -25,10 +27,13 @@ published: true
 
       heading.setAttribute('id', anchor);
 
+      const listItem = document.createElement('li');
       const link = document.createElement('a');
       link.textContent = title;
       link.setAttribute('href', '#' + anchor);
-      navigation.appendChild(link);
+      listItem.appendChild(link);
+
+      navigationList.appendChild(listItem);
     });
   });
 </script>
@@ -174,7 +179,7 @@ published: true
               <br>
               </p>
            
-        <h3 class="lead"id="anchor1">Taiwan's MPAs evaluation</h3><hr>
+        <h3 class="lead"id="anchor1">MPAs evaluation</h3><hr>
               <p align="justify">
                 Global and local stressors profoundly impact coral-associated ecosystems. Marine Protected Areas (MPAs) were shown to help reduce local drivers of degradation and increase ecosystem resilience capacities. However, long-term conservation efforts need to account for the pervasiveness of climate change. To minimize global challenges’ consequences, the portfolio-based conservation strategy proposed to protect both “good” and “bad” coral communities to preserve the rich biodiversity of these ecosystems alongside their most resistant populations. Taiwan constitutes an ideal study area as its coral-associated ecosystems range from tropical reefs to subtropical coral communities along a gradient of human activities. Additionally, its geographical position could serve as an essential transitional stepping-stone for future coral-associated ecosystems. However, the complexity of MPA governance in Taiwan makes their effectiveness unclear.<br>
                 <br>
