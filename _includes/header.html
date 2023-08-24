@@ -22,20 +22,31 @@
         <a href="/about.html">About me</a>
       </li>
       
-   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Include jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Custom JavaScript for dropdown behavior -->
 <script>
     $(document).ready(function() {
-        // Prevent navigation when clicking the "Projects" link
+        // When clicking on the "Projects" link
         $(".dropdown a").click(function(e) {
-            e.preventDefault();
-            // Navigate to the "/projects.html" page when clicked
-            window.location.href = "/projects.html";
+            e.preventDefault(); // Prevent default navigation
+            window.location.href = "/projects.html"; // Navigate to the page
+        });
+
+        // Enable dropdown on hover
+        $(".dropdown").hover(function() {
+            $(this).find(".dropdown-menu").stop(true, true).slideDown();
+        }, function() {
+            $(this).find(".dropdown-menu").stop(true, true).slideUp();
         });
     });
-</script>   
+</script>
+
+<!-- The anchor tag for "Projects" with the dropdown menu -->
       
-      <li>
-  <a href="/projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+      <li class="dropdown">
+  <a href="/projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects bis<span class="caret"></span></a>
   <ul class="dropdown-menu">
     <li class="active">
       <a href="/TaiwanCoral-associatedecosystems">Shallow Coral-associated Ecosystems</a>
