@@ -40,11 +40,6 @@
             }
         );
 
-        // Prevent navigation when clicking on the "Projects" link
-        $(".dropdown > a").click(function(e) {
-            e.preventDefault();
-        });
-
         // Handle clicks on sub-menu items
         $(".dropdown-menu a").click(function() {
             // Navigate to the selected page
@@ -53,28 +48,28 @@
     });
 </script>
 
-    <!-- The anchor tag for "Projects" with the dropdown menu -->
-    
-    <li class="dropdown">
-      <a href="/projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects 3<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li class="active">
-            <a href="/TaiwanCoral-associatedecosystems.html">Shallow Coral-associated Ecosystems bis</a>
-              </li>
-              <li>
-              <a href="/MarginalCoralCommunities.html">Marginal Coral Communities</a>
-                </li>
-                <li>
-                <a href="/MarineAnimalForests.html">Marine Animal Forests</a>
-                  </li>
-                  <li>
-                  <a href="/Paleo-reefreconstructions.html">Paleo-reef reconstructions</a>
-                    </li>
-                    <li>
-                    <a href="/CitizenscienceandNewtechnologicalapproaches.html">Citizen science & new technological approaches</a>
-                    </li>
-          </ul>
-    </li>
+<!-- The anchor tag for "Projects" without data-toggle -->
+<li class="dropdown">
+    <a href="/projects.html" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+    <ul class="dropdown-menu">
+        <li class="active">
+            <a href="/TaiwanCoral-associatedecosystems">Shallow Coral-associated Ecosystems</a>
+        </li>
+        <li>
+            <a href="/MarginalCoralCommunities">Marginal Coral Communities</a>
+        </li>
+        <li>
+            <a href="/MarineAnimalForests">Marine Animal Forests</a>
+        </li>
+        <li>
+            <a href="/Paleo-reefreconstructions">Paleo-reef reconstructions</a>
+        </li>
+        <li>
+            <a href="/CitizenscienceandNewtechnologicalapproaches">Citizen science & new technological approaches</a>
+        </li>
+    </ul>
+</li>
+
     
       <li>
         <a href="/cv.html">Curriculum Vitae</a>
