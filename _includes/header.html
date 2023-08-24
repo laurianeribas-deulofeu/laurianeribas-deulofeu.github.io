@@ -23,31 +23,40 @@
       </li>
       
 <!-- Include jQuery library -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <!-- Custom JavaScript for dropdown behavior -->
-    <script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Custom JavaScript for hover-based dropdown -->
+<script>
     $(document).ready(function() {
-      // When clicking on the "Projects" link
-      $(".dropdown a").click(function(e) {
-        e.preventDefault(); // Prevent default navigation
-        window.location.href = "/projects.html"; // Navigate to the page
-      });
-      
-      // Enable dropdown on hover
-      $(".dropdown").hover(function() {
-        $(this).find(".dropdown-menu").stop(true, true).slideDown();
-      }, function() {
-        $(this).find(".dropdown-menu").stop(true, true).slideUp();
-      });
+        // Handle hover events for the "Projects" dropdown
+        $(".dropdown").hover(
+            function() {
+                // Show the dropdown menu on hover
+                $(this).find(".dropdown-menu").stop(true, true).slideDown();
+            },
+            function() {
+                // Hide the dropdown menu when the mouse leaves
+                $(this).find(".dropdown-menu").stop(true, true).slideUp();
+            }
+        );
+
+        // Prevent navigation when clicking on the "Projects" link
+        $(".dropdown > a").click(function(e) {
+            e.preventDefault();
+        });
+
+        // Handle clicks on sub-menu items
+        $(".dropdown-menu a").click(function() {
+            // Navigate to the selected page
+            window.location.href = $(this).attr("href");
+        });
     });
-  </script>
-    
+</script>
+
     <!-- The anchor tag for "Projects" with the dropdown menu -->
     
     <li class="dropdown">
-      <a href="/projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects try 2<span class="caret"></span></a>
-      <div>
+      <a href="/projects.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects 3<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li class="active">
             <a href="/TaiwanCoral-associatedecosystems.html">Shallow Coral-associated Ecosystems bis</a>
@@ -65,7 +74,6 @@
                     <a href="/CitizenscienceandNewtechnologicalapproaches.html">Citizen science & new technological approaches</a>
                     </li>
           </ul>
-      </div>
     </li>
     
       <li>
