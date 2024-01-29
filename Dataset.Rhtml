@@ -1,0 +1,70 @@
+---
+layout: default_style
+permalink: /Dataset
+published: true
+---
+<div class="container">
+    <div class="row">
+          <div class="services-header">
+          <h2 align="center" class="services-header-title">Dataset</h2><hr>
+          </div>
+     </div>
+</div>      
+  
+<div class="container">
+    <b>Menu:</b>
+  <div id="navigation">
+  <div class="navigation-column">
+    <ul id="navigation-list-left"></ul>
+  </div>
+  <div class="navigation-column">
+    <ul id="navigation-list-right"></ul>
+  </div>
+</div>
+
+<style>
+  .navigation-column {
+    width: 50%;
+    float: left;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const headings = document.querySelectorAll('h3');
+    const navigationListLeft = document.getElementById('navigation-list-left');
+    const navigationListRight = document.getElementById('navigation-list-right');
+
+    headings.forEach(function(heading, index) {
+      const title = heading.textContent;
+      const anchor = 'section-' + index;
+
+      heading.setAttribute('id', anchor);
+
+      // Check if the heading is within the footer
+      if (!heading.closest('footer')) {
+        const listItem = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = title;
+        link.setAttribute('href', '#' + anchor);
+        listItem.appendChild(link);
+
+        // Alternate between left and right columns
+        if (index % 2 === 0) {
+          navigationListLeft.appendChild(listItem);
+        } else {
+          navigationListRight.appendChild(listItem);
+        }
+      }
+    });
+  });
+</script>
+</div>
+
+<div class="container">   
+  <div class="row">  
+    <div class="col-sm-6 col-md-6">
+        <h3 class="lead"id="anchor1"> Overview</h3><hr>
+        <p align="justify">
+         Here, you'll find link to github, dryad and other reposetories to my published dataset, R codes or other programs.<br>                                     
+          <br></p>    
