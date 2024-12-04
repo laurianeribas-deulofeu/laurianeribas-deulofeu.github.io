@@ -21,16 +21,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://laurianeribasdeulofeu.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
-company_name: Institute of Oceanography, National Taiwan University
-address_line: IONTU R120, No. 1, Section 4, Roosevelt Rd, Da’an District, Taipei City, 106 (Taiwan)
+company_name: Faculty of Biosciences and Aquaculture, Nord University
+address_line: Noatun B2.030, Universitetsalléen 11, 8026 Bodø (Norway)
 #telephone_number: NA
 #fax_number: NA
 company_email: lauriane.ribas@gmail.com
-google_map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14461.507790783593!2d121.5372973!3d25.0212787!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd89373059c37211!2sInstitute%20of%20Oceanography%2C%20National%20Taiwan%20University!5e0!3m2!1sen!2stw!4v1660877933220!5m2!1sen!2stw
-
+google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2224.3488531525436!2d14.557791877972955!3d67.28907625049939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45df1760e8851fb9%3A0x83de2d41a44bafb9!2sNord%20University!5e1!3m2!1sen!2sno!4v1733317006339!5m2!1sen!2sno
 # Social Link
 #facebook_link: http://www.facebook.com
-twitter_link: "https://twitter.com/laurianeribas"
+bluesky_link: "https://bsky.app/profile/ribas-deulofeu.bsky.social"
 webofscience_link: "https://www.webofscience.com/wos/author/record/AAC-2793-2022"
 orcid_link: "https://orcid.org/0000-0001-9005-5547" 
 researchgate_link: "https://www.researchgate.net/profile/Lauriane-Ribas-Deulofeu"
