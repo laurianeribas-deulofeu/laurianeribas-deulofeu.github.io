@@ -747,6 +747,9 @@ a .icon-flip-vertical:before {
 .icon-twitter-sign:before {
   content: "\f081";
 }
+.icon-bluesky-sign:before {
+  content: "\e671";
+}
 .icon-facebook-sign:before {
   content: "\f082";
 }
@@ -817,6 +820,9 @@ a .icon-flip-vertical:before {
 }
 .icon-twitter:before {
   content: "\f099";
+}
+.icon-bluesky:before {
+  content: "\e671";
 }
 .icon-facebook:before {
   content: "\f09a";

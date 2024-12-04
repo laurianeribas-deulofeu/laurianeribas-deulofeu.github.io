@@ -231,7 +231,7 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .icon-bookmark-empty:before       { content: "\f097"; }
 .icon-phone-sign:before           { content: "\f098"; }
 .icon-twitter:before              { content: "\f099"; }
-.icon-bluesky:before              { content: "\f099"; }
+.icon-bluesky:before              { content: "\e671"; }
 .icon-facebook:before             { content: "\f09a"; }
 .icon-github:before               { content: "\f09b"; }
 .icon-unlock:before               { content: "\f09c"; }
