@@ -61,6 +61,12 @@ published: true
             </a>
           {% endif %}
           
+          {% if site.github_link %}
+            <a href="{{ site.github_link }}" class="btn-group linkedin">
+              <i class="fa fa-github"></i>
+            </a>
+          {% endif %}
+          
           {% if site.bluesky_link %}
             <a href="{{ site.bluesky_link }}" class="btn-group linkedin">
               <i class="fa fa-bluesky"></i>
