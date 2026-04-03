@@ -44,10 +44,17 @@ published: true
           {% endif %}
           
           {% if site.webofscience_link %}
+            <a href="{{ site.webofscience_link }}" class="btn-group webofscience">
+              <i class="fa fa-flask"></i>
+            </a>
+          {% endif %}
+          
+           {% if site.webofscience_link %}
             <a href="{{ site.webofscience_link: }}" class="btn-group webofscience">
               <i class="fa fa-flask"></i>
             </a>
           {% endif %}
+          
           
           {% if site.researchgate_link %}
             <a href="{{ site.researchgate_link: }}" class="btn-group researchgate">
