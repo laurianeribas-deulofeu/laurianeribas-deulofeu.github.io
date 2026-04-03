@@ -16,13 +16,13 @@
 title: Dr. Lauriane Ribas-Deulofeu
 email: lauriane.ribas@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Dr. L Ribas-Deulofeu's website. Discover my research on coral reef ecosystems.
+  Welcome to Dr. L Ribas-Deulofeu's website. Discover my research in marine ecology and conservation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://laurianeribasdeulofeu.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
 company_name: Faculty of Biosciences and Aquaculture, Nord University
-address_line: Noatun B2.030, Universitetsalléen 11, 8026 Bodø (Norway)
+address_line: Noatun B2.019, Universitetsalléen 11, 8026 Bodø (Norway)
 #telephone_number: NA
 #fax_number: NA
 company_email: lauriane.ribas@gmail.com
@@ -35,6 +35,8 @@ orcid_link: "https://orcid.org/0000-0001-9005-5547"
 researchgate_link: "https://www.researchgate.net/profile/Lauriane-Ribas-Deulofeu"
 linkedin_link: "https://www.linkedin.com/in/lauriane-ribas-deulofeu/"
 googlescholar_link: "https://scholar.google.com/citations?user=DTU8D8QAAAAJ&hl=en"
+insta_link: "https://www.instagram.com/lauriane.ribasdeulofeu/"
+bluesky_link: "https://bsky.app/profile/ribas-deulofeu.bsky.social"
 
 # Build settings
 markdown: kramdown
